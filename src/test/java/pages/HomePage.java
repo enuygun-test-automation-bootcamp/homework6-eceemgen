@@ -16,8 +16,7 @@ public class HomePage {
     Helper elementHelper;
     By gdpr = By.cssSelector("#CookieAlert button");
     By fromForFlightSearch= By.id("OriginInput");
-    By fromListForFlightSearch=By.xpath("//*/ul[@role='listbox']/li");
-    //login page constructor
+    By fromListForFlightSearch=By.xpath("//*/ul[@role='listbox']/li")
     public HomePage(WebDriver driver)
     {
         this.driver=driver;
